@@ -1,7 +1,7 @@
 /**
  * There is two types of context in javascript 
  * 1 Execution context
- * 2. Global Context
+ * 2.Global Context
  */
 
  /**
@@ -23,7 +23,7 @@
   tipper("7")
 
 //bigTipper(100)
- var bigTipper =  function bigTpper(a){
+ var bigTipper =  function bigTipper(a){
     var bill = parseInt(a);
     console.log(bill + 50 );
   }
@@ -34,3 +34,4 @@
 
   console.log(name);
   var name = "Jon";
+
