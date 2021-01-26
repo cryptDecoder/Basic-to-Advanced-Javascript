@@ -9,6 +9,7 @@
 
  var value = "perry";
  
+ // global context work in  browser
  if (value === window.value) {
     console.log("This is true again");
  }
