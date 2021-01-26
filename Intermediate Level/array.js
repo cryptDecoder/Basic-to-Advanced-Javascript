@@ -71,3 +71,18 @@ var output = [2, 4, 6].every((e) => {
     return e % 2 === 0;
 });
 console.log(output);
+
+
+/**
+ * Fill and filter in array
+ */
+
+var testArray = [2, 3, 4, 5, 6, 7, 8];
+
+console.log(testArray.fill('h', 3, 6));
+
+
+// filter
+const myNumber = [2, 3, 4, 55, 6, 7, 8, 55, 4, 3, 2, 2, 1, 1, 77]
+const result1 = myNumber.filter((num) => num > 55);
+console.log(result1);
