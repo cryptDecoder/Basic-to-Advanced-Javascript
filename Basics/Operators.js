@@ -15,3 +15,7 @@ Multiplication of numbers: ${num1 * num2}
 
 var value = num1 < num2;
 console.log(value);
+
+/**
+ * Operator Precedence
+ */
