@@ -13,3 +13,9 @@
  }else{
      console.log("It's really HOT outside.");
  }
+
+ /**
+  *  What is conditional in javascript
+  *     check the given values and take the action as per the request.
+  *     for ex. if logged with google account send the email using gmail else send with outlook.
+  */
