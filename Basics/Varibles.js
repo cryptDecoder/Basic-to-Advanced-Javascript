@@ -13,5 +13,18 @@ var fullName = "Pruthviraj Sonawane";
     full-name
     full_name
     never use upper case for start variable name.
+
+    Types of variables:
+    1. String
+    2. Integer
+    3. Boolean
+    4. undefined
+
+    you cant use Reserved keyword for declaring the variables.
 */
 console.log("Your full name is  : ",fullName);
+
+var isLoggedIn = true;
+console.log(isLoggedIn);
+var value;
+console.log(value);
