@@ -7,18 +7,17 @@
  */
 
 
- var user = null; // change to check results.
+var user = null; // change to check results.
 
- if (user) {
+if (user) {
     console.log("Condition is true");
- }
+}
 
 
- console.log(2 + "2"); // truthy values
+console.log(2 + "2"); // truthy values
 
- var value = '2' //checking the coercion  replace == to == for proper output
+var value = '2' //checking the coercion  replace == to == for proper output
 
- if (2 === value) {
-     console.log("Code running");
- }
-
+if (2 === value) {
+    console.log("Code running");
+}

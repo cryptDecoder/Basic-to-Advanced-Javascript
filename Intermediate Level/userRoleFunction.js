@@ -10,12 +10,12 @@
  * Input: getUserRole(name, role)
  */
 
- // declare the function here
- function getUserRole(name,role){
-     switch (role) {
+// declare the function here
+function getUserRole(name, role) {
+    switch (role) {
         case "admin":
-             return `${name} is admin with all access.`
-             break;
+            return `${name} is admin with all access.`
+            break;
         case "subadmin":
             return `${name} is subadmin with access to create and delete course`
             break;
@@ -24,20 +24,20 @@
             break;
         case "user":
             return `${name} is a user with access to consume the content `
-         default:
-             return `${user} is a trial user`
-             break;
-     }
- }
+        default:
+            return `${user} is a trial user`
+            break;
+    }
+}
 
 // calling the function
 
-var getRole = getUserRole('John',"admin")
+var getRole = getUserRole('John', "admin")
 console.log(getRole);
 
 // declare function as a variable 
 
-var getRoleValue = function (name,role){
+var getRoleValue = function (name, role) {
     if (role == "admin") {
         return `${name} has admin access.`
     } else {
@@ -45,4 +45,4 @@ var getRoleValue = function (name,role){
     }
 }
 
-console.log(getRoleValue("mac","admin"));
+console.log(getRoleValue("mac", "admin"));

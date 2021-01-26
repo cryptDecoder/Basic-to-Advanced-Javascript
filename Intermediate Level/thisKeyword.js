@@ -2,13 +2,13 @@
  * this keyword
  */
 
- console.log(this);
+console.log(this);
 
- var game = "cricket";
+var game = "cricket";
 
- function sayGame(){
-     var gameName = "FootBall";
-     console.log(this);
- }
+function sayGame() {
+    var gameName = "FootBall";
+    console.log(this);
+}
 
- sayGame()
+sayGame()

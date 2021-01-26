@@ -4,8 +4,8 @@
  *  
  */
 
- // declaration of function
-function sayHello(){
+// declaration of function
+function sayHello() {
     console.log("Hello, This is a first javascript function.");
 }
 
@@ -14,7 +14,7 @@ sayHello()
 
 // function with parameter
 
-function sayHelloName(name){
+function sayHelloName(name) {
     console.log(`Hello, ${name}. how are you?`)
 }
 
@@ -24,7 +24,7 @@ sayHelloName("Pruthviraj")
 
 // function with return
 
-function namstey(){
+function namstey() {
     return "namstey, how are you all?"
 }
 

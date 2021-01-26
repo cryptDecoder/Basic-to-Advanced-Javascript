@@ -22,7 +22,7 @@ var fullName = "Pruthviraj Sonawane";
 
     you cant use Reserved keyword for declaring the variables.
 */
-console.log("Your full name is  : ",fullName);
+console.log("Your full name is  : ", fullName);
 
 var isLoggedIn = true;
 console.log(isLoggedIn);

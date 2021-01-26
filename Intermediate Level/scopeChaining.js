@@ -2,14 +2,14 @@
  *  Scope Chaining
  */
 
- var name = "Richa";
- console.log("Line number 6",name);
+var name = "Richa";
+console.log("Line number 6", name);
 
- function sayName(){
-     var name = "warner";
-     console.log("Line number 9",name);
- }
- sayName()
+function sayName() {
+    var name = "warner";
+    console.log("Line number 9", name);
+}
+sayName()
 
 /**
  * 

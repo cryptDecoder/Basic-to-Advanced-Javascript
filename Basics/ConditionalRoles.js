@@ -8,11 +8,11 @@
  */
 
 
- var user = 'admin'; // change the user value to check user role and permissions
+var user = 'admin'; // change the user value to check user role and permissions
 
- switch (user) {
+switch (user) {
     case "admin":
-        console.log("you get the full access.");         
+        console.log("you get the full access.");
         break;
     case "subadmin":
         console.log("you get the access create and delete the courses.");
@@ -23,7 +23,7 @@
     case "user":
         console.log("You can consume the content");
         break;
-     default:
-         console.log("Not matching user");
-         break;
- }
+    default:
+        console.log("Not matching user");
+        break;
+}
