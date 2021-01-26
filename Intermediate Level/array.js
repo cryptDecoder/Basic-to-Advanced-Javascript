@@ -91,4 +91,6 @@ console.log(result1);
 
 var userdata = ['tom', 'jerry', 'ironMan', 'ted', 'Sam'];
 console.log(userdata);
-console.log(userdata.slice(2, 5));
+console.log(userdata.slice(1, 3));
+userdata.splice(1, 2, 'hii', "bye");
+console.log(userdata);
