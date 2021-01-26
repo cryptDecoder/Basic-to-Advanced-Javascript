@@ -6,6 +6,7 @@
  console.log("Line number 6",name);
 
  function sayName(){
+     var name = "warner";
      console.log("Line number 9",name);
  }
  sayName()
