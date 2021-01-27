@@ -32,3 +32,9 @@ do {
 /**
  * for each loop
  */
+
+var k = 0;
+
+names.forEach((s) => {
+    console.log(s);
+})
