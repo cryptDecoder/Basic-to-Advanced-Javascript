@@ -13,3 +13,17 @@ const names = ['Ted', 'Tom', 'Hardy', 'John'];
 for (let i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
+
+// while loop
+
+let i = 0;
+while (i < 10) {
+    console.log("Checking console logs")
+    i++;
+}
+
+let j = 0;
+do {
+    console.log("Do while loop");
+    j++;
+} while (i < 10);
