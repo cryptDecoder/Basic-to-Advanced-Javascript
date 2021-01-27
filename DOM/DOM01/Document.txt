@@ -1,0 +1,19 @@
+--------------------------- DOM(Document Object Model) --------------------------- 
+Every web page resides inside a browser window which can be considered as an Object.
+Document
+    |
+    |
+    |Head
+        |
+    |  title
+    |
+    |
+    |Body
+    |   |
+        div(nav)
+    |   |
+    |   div(content)
+    |   |
+    |   div(footer)
+    |
+    |
