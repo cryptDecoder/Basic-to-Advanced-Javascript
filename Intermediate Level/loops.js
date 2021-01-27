@@ -27,3 +27,8 @@ do {
     console.log("Do while loop");
     j++;
 } while (i < 10);
+
+
+/**
+ * for each loop
+ */
