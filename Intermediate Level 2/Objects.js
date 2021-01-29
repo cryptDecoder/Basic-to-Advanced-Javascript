@@ -11,8 +11,22 @@ var User = function (firstName, courseCount) {
 };
 
 var prithvi = new User('pritviraj', 2)
+prithvi.getCourseCount()
 
 console.log(prithvi);
 
 var sam = new User('sam', 2)
 console.log(sam);
+sam.getCourseCount()
+
+/**
+ * Proto in javascript
+ */
+
+
+User.prototype.getFirstName = function () {
+    console.log(`Your firstName is : ${this.firstName}`);
+}
+
+prithvi.getFirstName()
+sam.getFirstName()
